@@ -1,0 +1,32 @@
+footer { 
+    width: 100%;
+    height: 160px;
+    background-color: rgb(32, 32, 111); 
+    position: relative;
+    bottom: 0;
+    color: white;
+}
+
+.rodape {
+    background-color: rgb(32, 32, 111);
+    display: flex;
+    justify-content:space-between;
+    padding: 1rem;
+}
+
+
+.esquerdo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.links {
+    color: white;
+}
+/* 
+footer {
+    display: flex;
+    justify-content:space-between;
+    bottom: 0;
+  } */
