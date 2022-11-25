@@ -1,13 +1,15 @@
 import './navbar.css'
 import HamburguerMenu from '../../images/hamburguer-menu.svg'
 import Globe from '../../images/globo.svg'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
     return (
         <>
             <div id='navbar' className="flex">
-
-                <img src={HamburguerMenu} alt="Menu" />
+                <Link to={'/'}>
+                    <img src={HamburguerMenu} alt="Menu" />
+                </Link>
 
                 <div id='pesquisaNav'>
                     <input type="search" name="Barra de pesquisa" id="searchNav" />
