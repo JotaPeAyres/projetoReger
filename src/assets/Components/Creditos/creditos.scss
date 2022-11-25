@@ -1,0 +1,56 @@
+@import "../../../index.scss";
+
+#creditos
+{
+    display: flex;
+    flex-direction: column;
+
+    @include all
+    {
+        img
+        {
+            width: 300px;
+            align-self: center;
+            margin-bottom: 30px;
+        }
+
+        > h1
+        {
+            background-image: url(../../images/trees.png);
+            height: 250px;
+            font-size: 40px;
+            text-shadow: 1px 2px 5px black;
+            padding-top: 50px;
+            font-weight: 500;
+            color: whitesmoke;
+            text-align: center;
+        }
+
+        > div
+        {
+
+            h2
+            {
+                text-align: center;
+                margin-top: 60px;
+            }
+        }
+
+        #lpCreditos,
+        #designCreditos,
+        #profCreditos
+        {
+            text-align: center;
+
+            li
+            {
+                margin-top: 10px;
+            }
+        }
+
+        #designCreditos
+        {
+            margin-bottom: 100px;
+        }
+    }
+}

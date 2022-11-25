@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  overflow-y: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+footer {
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #255f81;
+}
+@media (min-width: 0px) {
+  footer {
+    color: white;
+    text-decoration: none;
+    justify-content: space-between;
+  }
+  footer > * {
+    padding: 30px 20px;
+  }
+  footer #linksFooter {
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+  }
+  footer #linksFooter > a {
+    padding-bottom: 20px;
+  }
+  footer #redesFooter {
+    padding-right: 250px;
+  }
+  footer #redesFooter p {
+    padding-left: 5px;
+  }
+  footer #redesFooter div {
+    padding-top: 20px;
+  }
+  footer #redesFooter div img {
+    width: 20px;
+    height: 20px;
+    padding: 0px 5px;
+  }
+  footer #linksFooter,
+footer #redesFooter {
+    padding-bottom: 10px;
+  }
+  footer #linksFooter > a,
+footer #redesFooter > a {
+    text-decoration: none;
+    color: white;
+  }
+}

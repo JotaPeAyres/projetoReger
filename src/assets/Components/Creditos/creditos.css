@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  overflow-y: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.sugeridosProjeto {
+  display: flex;
+  flex-direction: column;
+}
+
+.sugeridosCard {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+.sugeridosCard img {
+  width: 220px;
+  box-shadow: 1px 1px 10px black;
+}
+
+#creditos {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 0px) {
+  #creditos img {
+    width: 300px;
+    align-self: center;
+    margin-bottom: 30px;
+  }
+  #creditos > h1 {
+    background-image: url(../../images/trees.png);
+    height: 250px;
+    font-size: 40px;
+    text-shadow: 1px 2px 5px black;
+    padding-top: 50px;
+    font-weight: 500;
+    color: whitesmoke;
+    text-align: center;
+  }
+  #creditos > div h2 {
+    text-align: center;
+    margin-top: 60px;
+  }
+  #creditos #lpCreditos,
+#creditos #designCreditos,
+#creditos #profCreditos {
+    text-align: center;
+  }
+  #creditos #lpCreditos li,
+#creditos #designCreditos li,
+#creditos #profCreditos li {
+    margin-top: 10px;
+  }
+  #creditos #designCreditos {
+    margin-bottom: 100px;
+  }
+}
