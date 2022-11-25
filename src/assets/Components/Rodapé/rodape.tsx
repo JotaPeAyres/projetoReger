@@ -35,7 +35,7 @@ function Rodape() {
                 </div>
                 <div id="redesFooter">
                     <Link to=''>
-                        <p>SIGA-NOS</p>
+                        <p>SIGA-NOS:</p>
                     </Link>
 
                     <div>

@@ -17,33 +17,39 @@ footer {
 }
 @media (min-width: 0px) {
   footer {
+    display: flex;
+    flex-direction: column;
     color: white;
     text-decoration: none;
+    align-items: center;
     justify-content: space-between;
   }
   footer > * {
-    padding: 30px 20px;
+    padding: 30px 0px;
   }
   footer #linksFooter {
     display: flex;
     flex-direction: column;
-    padding-left: 150px;
   }
   footer #linksFooter > a {
     padding-bottom: 20px;
   }
   footer #redesFooter {
-    padding-right: 250px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
   }
   footer #redesFooter p {
-    padding-left: 5px;
+    text-align: center;
+    align-self: center;
   }
   footer #redesFooter div {
+    align-self: center;
     padding-top: 20px;
   }
   footer #redesFooter div img {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     padding: 0px 5px;
   }
   footer #linksFooter,
@@ -54,5 +60,11 @@ footer #redesFooter {
 footer #redesFooter > a {
     text-decoration: none;
     color: white;
+  }
+}
+@media (min-width: 768px) {
+  footer {
+    flex-direction: row;
+    justify-content: space-around;
   }
 }

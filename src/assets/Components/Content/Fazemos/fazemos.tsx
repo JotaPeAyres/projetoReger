@@ -25,9 +25,9 @@ function Fazemos() {
                         </p>
                     </div>
 
-                    <div className='sugeridos'>
+                    <div className='sugeridosFazemos'>
                         <h2>Sugeridos:</h2>
-                        <div className='sugeridosCard'>
+                        <div className='sugeridosCardFazemos'>
 
                             <Link to={'/onde'} onClick={pageUp}>
                                 <img src={Estamos} alt="" />

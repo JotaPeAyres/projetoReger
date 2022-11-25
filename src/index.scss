@@ -68,23 +68,3 @@
 {
   display: flex;
 }
-
-.sugeridosProjeto
-{
-  display: flex;
-  flex-direction: column;
-}
-
-.sugeridosCard
-{
-  padding-top: 30px;
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 100px;
-
-  img
-  {
-    width: 220px;
-    box-shadow: 1px 1px 10px black;
-  }
-}
