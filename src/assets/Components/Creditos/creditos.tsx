@@ -36,10 +36,10 @@ function Creditos() {
                         <h2>Alunos Design:</h2>
 
                         <ol>
-                            <li>Bella</li>
-                            <li>Leonie</li>
-                            <li>Lídia</li>
-                            <li>Lucas Chagas</li>
+                            <li>Isabella Maria Francisco</li>
+                            <li>Lídia de Faria</li>
+                            <li>Lucas Vítor Velozo das Chagas</li>
+                            <li>Maria Eduarda Manfrinato Leão</li>
 
                         </ol>
                     </div>

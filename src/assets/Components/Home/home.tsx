@@ -15,9 +15,9 @@ function Home() {
             <div id="home">
                 <h1>PROJETO REGER</h1>
                 <p>Há uma preocupação constante do Unisagrado com os resíduos produzidos em todas as suas atividades, porém nem todos têm consciência do que nós já fazemos. Esta preocupação com os resíduos vem de uma necessidade não só da instituição, mas um cuidado com os impactos causados no meio ambiente e com os efeitos a curto e longo prazo.</p>
-                <div className='sugeridos'>
+                <div className='sugeridosHome'>
 
-                    <div className='sugeridosCard' id='sugeridosHome'>
+                    <div className='sugeridosCardHome' id='sugeridosHome'>
                         <Link to={'/projeto'} onClick={pageUp}>
                             <img src={Projeto} alt="" />
                         </Link>

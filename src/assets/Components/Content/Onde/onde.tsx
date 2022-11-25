@@ -20,8 +20,7 @@ function Onde() {
                     <div>
 
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui pariatur fugiat, sunt quasi consectetur natus voluptatibus maxime quibusdam. Debitis neque incidunt quos ratione consequatur error praesentium autem unde, nulla suscipit maiores explicabo impedit tempora, perferendis magni est magnam. Modi culpa, cupiditate eaque recusandae dolorem atque amet. Adipisci a ex, fugit tempore numquam eius tenetur veniam explicabo officiis molestiae. Illo non quia possimus asperiores maxime odio iure laudantium consequuntur necessitatibus quisquam suscipit, blanditiis officiis corporis iste sed unde quidem neque ut dignissimos, voluptatem consequatur quod placeat est modi! Laboriosam porro blanditiis quaerat, iste aliquid temporibus ex molestiae reiciendis cupiditate ea obcaecati voluptates alias? Sit nesciunt ducimus neque ut corrupti distinctio ipsa dolorem esse aliquam, tenetur, sunt velit commodi rerum ullam repudiandae facilis mollitia ab alias totam fugiat blanditiis sequi doloribus non? Nisi nihil accusamus magnam explicabo laudantium non, velit assumenda minus.</p>
-
+                        <p>O Projeto de Extensão Redução da Geração de Resíduos (REGER) do UNISAGRADO é desenvolvido desde o ano de 2016, com o objetivo de concretizar o tema sustentabilidade no campus e orientar a todos os que o frequentam sobre a destinação correta dos resíduos, além de intensificar a sua redução. Até o momento, 189 pessoas já foram atendidas de forma direta e 8340 beneficiados de forma indireta.</p>
                     </div>
 
                     <div className='sugeridosOnde'>
