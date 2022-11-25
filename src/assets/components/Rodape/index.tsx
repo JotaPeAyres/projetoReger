@@ -1,23 +1,17 @@
 import './style.css'
-
+import { Link } from 'react-router-dom';
 function Rodape() {
     return (
         <footer>
             <div className='rodape'>
                 <div className='esquerdo'>
-                    {/* <br></br>
-                    <span>Sobre Nós</span>
-                    <span>Contatos</span>
-                    <span>Política da Comunidade</span>
-                    <span>Direitos Autorais</span>
-                    <span>Privacidade e Cookies</span>
-                     */}
                     <ul>
                         <li><a href="src\oprojeto.html" target="_blank">O projeto</a></li>
                         <li><a href="src\oquefazemos.html" target="_blank">O que fazemos</a></li>
                         <li><a href="src\ondeestamos.html" target="_blank">Onde estamos</a></li>
-                        {/* <li>Dicas</li> */}
-                        <li><a href="src\credito.html" target="_blank">Créditos</a></li>
+                        <li><Link to="/Credito" >
+                            <span> Créditos</span>
+                        </Link></li>
                     </ul>
                 </div>
                 <div className='direito'>
